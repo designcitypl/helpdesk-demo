@@ -1,0 +1,44 @@
+.jumbotron
+  .container
+    %h1 Hello, world!
+    %p
+      This is a demo app that demonstrates helpdesk gem
+      = link_to 'https://github.com/wacaw/helpdesk','https://github.com/wacaw/helpdesk',target: '_blank'
+    %p
+      %a.btn.btn-primary.btn-lg{role: "button",href: 'https://github.com/wacaw/helpdesk#helpdesk-',target: '_blank'} Learn more »
+.container
+  / Example row of columns
+  .row
+    .col-md-4
+      %h2 Try demo as admin
+      %p
+        Username:
+        %b
+          admin@example.com
+        %br
+        Password:
+        %b
+          helpdesk
+
+      %p
+        %a.btn.btn-default{href: "#", role: "button"} View details »
+    .col-md-4
+      %h2 Try demo as normal user
+      %p
+        Username:
+        %b
+          user@example.com
+        %br
+        Password:
+        %b
+          helpdesk
+      %p
+        %a.btn.btn-default{href: "#", role: "button"} View details »
+    .col-md-4
+      %h2 About demo
+      %p app created with Rails composer
+      %p
+        %a.btn.btn-default{href: "#", role: "button", href:'https://github.com/RailsApps/rails-composer/', terget:'_blank'} View details »
+  %hr/
+  %footer
+/ /container
