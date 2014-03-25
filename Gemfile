@@ -16,6 +16,11 @@ gem 'simple_form'
 gem 'unicorn'
 gem 'unicorn-rails'
 gem 'rolify'
+
+gem 'helpdesk'
+
+gem "letter_opener",">= 1.1.0"
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
