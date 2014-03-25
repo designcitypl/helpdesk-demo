@@ -1,3 +1,21 @@
+GIT
+  remote: git://github.com/wacaw/helpdesk.git
+  revision: 513afad1970384a7360422011072809f446e399d
+  specs:
+    helpdesk (0.0.20)
+      batch_translations
+      bootstrap-sass (~> 3.1.0)
+      chosen-rails
+      ckeditor
+      globalize
+      jquery-ui-rails
+      kaminari
+      rails (>= 4.0.0)
+      rails_autolink
+      sass-rails (>= 3.2.3)
+      simple_form
+      state_machine
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -101,19 +119,6 @@ GEM
       activesupport (>= 4.0.1)
       haml (>= 3.1, < 5.0)
       railties (>= 4.0.1)
-    helpdesk (0.0.20)
-      batch_translations
-      bootstrap-sass (~> 3.1.0)
-      chosen-rails
-      ckeditor
-      globalize
-      jquery-ui-rails
-      kaminari
-      rails (>= 4.0.0)
-      rails_autolink
-      sass-rails (>= 3.2.3)
-      simple_form
-      state_machine
     hike (1.2.3)
     hpricot (0.8.6)
     html2haml (1.0.1)
@@ -251,7 +256,7 @@ DEPENDENCIES
   factory_girl_rails
   figaro
   haml-rails
-  helpdesk
+  helpdesk!
   html2haml
   hub
   jbuilder (~> 1.2)

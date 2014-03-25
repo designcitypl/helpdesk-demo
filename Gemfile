@@ -18,7 +18,7 @@ gem 'unicorn-rails'
 gem 'rolify'
 gem 'pg'
 
-gem 'helpdesk'
+gem 'helpdesk', :github => 'wacaw/helpdesk'
 
 gem "letter_opener",">= 1.1.0"
 
