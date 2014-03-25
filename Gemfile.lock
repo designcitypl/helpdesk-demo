@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/wacaw/helpdesk.git
-  revision: 513afad1970384a7360422011072809f446e399d
+  revision: 222d1179ba1bca2e1aa4dd95da71fd64e5e989ae
   specs:
     helpdesk (0.0.20)
       batch_translations
