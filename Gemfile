@@ -16,6 +16,7 @@ gem 'simple_form'
 gem 'unicorn'
 gem 'unicorn-rails'
 gem 'rolify'
+gem 'pg'
 
 gem 'helpdesk'
 
