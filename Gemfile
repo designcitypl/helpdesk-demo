@@ -17,6 +17,7 @@ gem 'unicorn'
 gem 'unicorn-rails'
 gem 'rolify'
 gem 'pg'
+gem 'rails_12factor', group: :production
 
 gem 'helpdesk', :github => 'wacaw/helpdesk'
 
