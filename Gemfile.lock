@@ -250,7 +250,7 @@ DEPENDENCIES
   factory_girl_rails
   figaro
   haml-rails
-  helpdesk (>= 0.0.2)
+  helpdesk
   html2haml
   hub
   jbuilder (~> 1.2)
