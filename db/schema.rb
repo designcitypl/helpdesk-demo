@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140325183661) do
+ActiveRecord::Schema.define(version: 20141106133308) do
 
   create_table "helpdesk_comments", force: true do |t|
     t.integer  "ticket_id"
@@ -36,10 +36,15 @@ ActiveRecord::Schema.define(version: 20140325183661) do
 
   create_table "helpdesk_faqs", force: true do |t|
     t.integer  "position"
-    t.boolean  "active",     default: false, null: false
+    t.boolean  "active",         default: false, null: false
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "parent_id"
+    t.integer  "depth",          default: 0,     null: false
+    t.integer  "children_count", default: 0,     null: false
   end
+
+  add_index "helpdesk_faqs", ["parent_id"], name: "index_helpdesk_faqs_on_parent_id", using: :btree
 
   create_table "helpdesk_subscribers", force: true do |t|
     t.string   "name"

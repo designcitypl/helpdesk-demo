@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
-gem 'rails', '4.0.4'
+ruby '2.1.4'
+gem 'rails', '4.1.7'
 gem 'sass-rails', '~> 4.0.2'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
@@ -19,7 +19,7 @@ gem 'rolify'
 gem 'pg'
 gem 'rails_12factor', group: :production
 
-gem 'helpdesk'
+gem 'helpdesk', '0.0.31'
 #gem "fakefs", :require => "fakefs/safe"
 #gem 'letter_opener',  :github => "hcarreras/letter_opener", :branch => "on_a_server"
 gem 'letter_opener'
