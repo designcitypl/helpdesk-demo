@@ -19,7 +19,7 @@ gem 'rolify'
 gem 'pg'
 gem 'rails_12factor', group: :production
 
-gem 'helpdesk', '0.0.31'
+gem 'helpdesk'
 #gem "fakefs", :require => "fakefs/safe"
 #gem 'letter_opener',  :github => "hcarreras/letter_opener", :branch => "on_a_server"
 gem 'letter_opener'
