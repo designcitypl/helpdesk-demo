@@ -11,7 +11,7 @@ require 'helpdesk'
   config.display_user_uniq_info = "email"
 
   # Require User to be present in order to access Helpdesk
-  config.require_user = true
+  config.require_user = false
 
   # Base application sign in route name
   config.sign_in_url = 'new_user_session_path'
@@ -30,4 +30,11 @@ require 'helpdesk'
 
   # Helpdesk title
   config.helpdesk_name = "Example Helpdesk"
+
+  # Helpdesk root controller for users: faqs or tickets
+  config.root_controller = 'faqs'
+
+  # Helpdesk user top menu item
+  config.menu_items = ['app_root','faqs','search','language']
+
 end

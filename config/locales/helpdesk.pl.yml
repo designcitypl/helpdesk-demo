@@ -1,6 +1,7 @@
 pl:
 
   helpdesk:
+    lang: Język
     show: Pokaż
     edit: Edytuj
     destroy: Usuń
@@ -54,14 +55,18 @@ pl:
     dashboard: Dashboard
 
     subscribers:
-      title: Subskrybenci
+      title: Subskrybcja
       confirmed: Potwierdzeni subskrynenci
       unconfirmed: Niepotwierdzeni
       all: Wszyscy subskrybenci
       new: Dodaj subskrybenta
 
     faqs:
-      title: FAQ
+      sorting: 'Sortowanie:'
+      search: Szukaj
+      search_in_faqs: Szukaj w DOC
+      title: DOC
+      title_s: Espago Payments API v. 3.0.
       active: Aktywne pytania
       inactive: Nieaktywne pytania
       all: Wszystkie pytania
@@ -70,6 +75,14 @@ pl:
       faq:
         active: aktywne
         inactive: nieaktywne
+      search_count:
+        zero: 'Nic nie znaleziono dla zapytania: "%{query}"'
+        one: 'Znaleziono jeden wynik, dla zapytania: "%{query}"'
+        few: 'Znaleziono %{count} wyniki, dla zapytania: "%{query}"'
+        many: 'Znaleziono %{count} wyników, dla zapytania: "%{query}"'
+        other: 'Znaleziono %{count} wyników, dla zapytania: "%{query}"'
+      back_to_fasq: '« Wróć do listy pojęć'
+
 
     mailer:
       comment_by_helpdesk_confirmation:
@@ -108,6 +121,7 @@ pl:
         comment: Dodatkowy opis
         public: Widoczny/Wyślij
       helpdesk/ticket:
+        ticket_type: Rodzaj zgłoszenia
         requester_id: Zgłaszający
         subject: Temat
         status: Status

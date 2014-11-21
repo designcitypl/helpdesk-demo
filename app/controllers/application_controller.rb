@@ -10,7 +10,7 @@ class ApplicationController < ActionController::Base
   end
 
   def helpdesk_admin?
-    current_user.has_role? :admin
+    helpdesk_user && (helpdesk_user).has_role?(:admin)
   end
 
   def helpdesk_admin_collection
