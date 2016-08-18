@@ -11,3 +11,9 @@
 ADMIN_NAME: First User
 ADMIN_EMAIL: user@example.com
 ADMIN_PASSWORD: changeme
+
+USER_NAME: First User
+USER_EMAIL: user@example.com
+USER_PASSWORD: helpdesk
+
+ROLES: "[\"admin\", \"user\", \"VIP\"]"
